@@ -1,0 +1,219 @@
+*{box-sizing: border-box;}
+/*レイアウト崩れ防止*/
+
+li {list-style: none;}
+/*リストの黒点を消す*/
+
+
+body {
+	
+}
+
+h3 {
+	height: 70px;
+}
+header {
+	color:white;
+	background-color: #003366;
+}
+header h1 {
+	display: inline-block;
+	background-color: rgba(0,0,0,0.3);
+	position:fixed;
+	top:0px;
+	left:10px;
+	z-index:10;
+}
+header a {
+	position:fixed;
+	top:10px;
+	right:10px;
+	z-index:10;
+}
+
+.buy {
+	display:inline-block;
+	background-color: rgba(0,0,0,0.3);
+	height: 50px;
+	width:  80px;
+	line-height: 50px;
+	text-align: center;
+	margin: 10px;
+	float:right;
+	color:white;
+}
+
+.top {
+	display: flex;
+	background-color: #003366;
+}
+.top h2 {
+	margin: 5px;
+	padding:5px;
+	width: 40%;
+	font-size: 20px;
+	color:white;
+	background-color: rgba(0,0,0,0.3);
+
+}
+.top_img {
+	width: 60%;
+	height: 280px;
+	background-image: url(https://www.amwaylive.com/h_img/lp/nt/probio_kv.jpg);
+	background-size:280px;
+}
+span1 {
+	color:#00CC99;
+}
+span2 {
+	color:red;
+}
+
+.spa {
+	background-color: #003366;
+}
+h3 {
+	font-size: 12px;
+	color:black;
+	margin: 0px;
+	text-align: right;
+}
+
+
+main {
+	background-color: #f5f5dc;
+}
+.zen {
+	font-size: 25px;
+	color:block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.nut {
+	font-size: 25px;
+	color:block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.one {
+	display: block;
+	display: flex;
+}
+.one_img {
+	height: 280px;
+	width:  60%;
+	background-image: url(https://www.photolibrary.jp/mhd1/img297/450-20130710115534103849.jpg);
+	background-size:280px;
+}
+h4 {
+	height: 300px;
+	width: 200px;
+}
+
+.two {
+	display: block;
+	display: flex;
+}
+.two_img {
+	height: 300px;
+	width:  60%;
+	background-image: url(https://www.amwaylive.com/h_img/lp/nt/relationgraph.png);
+	background-size:250px 300px;
+}
+h5 {
+	padding-top: 100px;
+	height: 300px;
+	width: 200px;
+}
+
+.thr {
+	display: block;
+
+
+}
+.thr_img {
+	height: 300px;
+	width:  80%;
+	background-image: url(https://media.amwaylive.com/sys-master/images/ha8/hc3/8874785865758/120571J_5509_05_MediaContainer_amway-WF_Product_1000Wx1000H);
+	background-size:cover;
+	margin: 0 auto;
+}
+h6 {
+	text-align: center;
+	height: 300px;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+.fou {
+	display: block;
+}
+.fou_img {
+	height: 230px;
+	width:  70%;
+	background-image: url(https://www.amwaylive.com/h_img/lp/nt/modal03_01.png);
+	background-size: 327px 230px;
+
+	margin: 0 auto;
+}
+
+.last {
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+	margin-top: -60px;
+	background-color: #003366;
+	color:yellow;
+}
+
+.end {
+	height: 300px;
+	margin-top: 50px;
+}
+
+.fiv_img {
+	background-image: url(https://www.amwaylive.com/h_img/lp/nt/probio_product_01.png);
+	height: 220px;
+	width: 50%;
+	background-size: 230px 250px;
+	float:right;
+	margin-top: -30px;
+}
+
+.yen {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.dc {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.bot {
+	display: inline-block;
+	background-color: #ff773e;
+	height: 50px;
+	width: 100%;
+	margin-bottom:40px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.sop {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin:0px;
+}
+
+footer {
+	background-color: #003366;
+	color:white;
+}
